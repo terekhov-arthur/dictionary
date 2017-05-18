@@ -5,7 +5,14 @@ $(document).ready(function () {
         var value = $('#definition').val();
         var part = $('#partOfSpeech').val();
 
-        table.append('<br><input type="text" class="defs" readonly name="definitionList" value="'+ value +'"/>');
-        table.append(' <input type="text" class="defs" name="partOfSpeechList" value="'+ part +'"/>');
-    })
+        table.append('<tr>' +
+                        '<td>'+ value + '<input type="hidden" name="definitionList" value="'+ value +'"/></td>' +
+                        '<td>'+ part +'<input type="hidden" name="partOfSpeechList" value="'+ part +'"/></td>' +
+                        '<td><input type="button" id="delete" class="btn btn-link" value="delete" onclick="del()"></td>' +
+                     '</tr>');
+    });
 });
+
+function del() {
+
+}

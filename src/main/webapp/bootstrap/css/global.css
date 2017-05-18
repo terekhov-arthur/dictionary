@@ -1,8 +1,32 @@
 .add-word-form {
-    width: 300px;
+    width: 800px;
     margin: 200px auto;
 }
 
 .defs {
     border: none;
+    width: 230px;
+}
+
+.pos {
+    border: none;
+    width: 130px;
+}
+
+.left-column {
+    width: 300px;
+    float: left
+}
+
+.right-column {
+    width: 450px;
+    display: inline-block;
+}
+
+.offset-top {
+    margin-top: 200px;
+}
+
+.width-100 {
+    width: 100%;
 }
