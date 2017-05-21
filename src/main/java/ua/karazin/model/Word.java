@@ -1,5 +1,6 @@
 package ua.karazin.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -14,6 +15,8 @@ public class Word {
 
     @Id @GeneratedValue
     private long id;
+
+    @Column(columnDefinition = "nvarchar(50)")
     private String value;
     private String transcription;
 

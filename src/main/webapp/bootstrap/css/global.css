@@ -30,3 +30,12 @@
 .width-100 {
     width: 100%;
 }
+
+.search-field {
+    height: 40px;
+    font-size: 20pt;
+}
+
+.margin-top200 {
+    margin-top: 200px;
+}

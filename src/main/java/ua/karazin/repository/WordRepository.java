@@ -6,5 +6,6 @@ import ua.karazin.model.Word;
 import java.util.List;
 
 public interface WordRepository extends CrudRepository<Word, Long> {
-    List<Word> findAllByValueStartingWith(String value);
+    List<Word> findAllByValueIgnoreCaseStartingWith(String value);
+    List<Word> findAllByValueIgnoreCaseStartingWithAndPartOfSpeechIsNull(String value);
 }

@@ -15,6 +15,7 @@ import ua.karazin.model.Word;
 import ua.karazin.repository.WordRepository;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -25,18 +26,26 @@ public class AdminController {
 
     @PostMapping
     @ResponseBody
-    public Word add(@ModelAttribute Word word,
+    public Word add(@ModelAttribute final Word word,
                       @RequestParam("definitionList") List<String> definitions,
                       @RequestParam("partOfSpeechList") List<String> partsOfSpeech) {
 
         final Language language = word.getLanguage() == Language.EN ? Language.UKR : Language.EN;
 
         List<Word> defs = convertDefinitions(definitions, partsOfSpeech);
-        defs.forEach(w -> {
-            w.setLanguage(language);
-        });
+        defs.forEach(w -> w.setLanguage(language));
 
         word.setDefinitions(defs);
+
+        //todo: translation in two ways
+        defs.forEach( d -> {
+            Word loc = new Word();
+            loc.setValue(word.getValue());
+            loc.setLanguage(word.getLanguage());
+            loc.setPartOfSpeech(d.getPartOfSpeech());
+            d.setDefinitions(Arrays.asList(loc));
+            repository.save(d.getDefinitions());
+        });
 
         repository.save(word.getDefinitions());
         repository.save(word);

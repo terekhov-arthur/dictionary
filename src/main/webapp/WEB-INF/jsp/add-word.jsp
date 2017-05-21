@@ -27,7 +27,7 @@
                         <option name="${part}">${part}</option>
                     </c:forEach>
                 </select><br>
-                <input id="definition" class="form-control" type="text" placeholder="definition"/><br>
+                <input id="definition" class="form-control" type="text" placeholder="translation"/><br>
                 <input id="add-definition" type="button" class="btn btn-primary width-100" value="Add"><br>
             </div>
             <div class="col-md-4">
