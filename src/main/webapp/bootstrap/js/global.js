@@ -20,6 +20,7 @@ $(document).ready(function () {
         var part = $('#partOfSpeech').val();
         var id = 'def_'+definitionIndex++;
 
+        //todo: maybe rename def to trans
         table.append('<tr id="'+id+'" >' +
                         '<td>'+ value + '<input type="hidden" name="definitionList" value="'+ value +'"/></td>' +
                         '<td>'+ part +'<input type="hidden" name="partOfSpeechList" value="'+ part +'"/></td>' +
@@ -48,11 +49,11 @@ function renderData(data) {
 
     //todo: format func for a translation
     var htmlData = '<table>'
-                    + '<tr><th colspan="3">'+ data[0].value +'</th></tr>'
+                    + '<tr><th colspan="3">'+ data.word +'</th></tr>'
                     + '<tr><th>Translation</th><th>Part Of Speech</th></tr>';
 
-    data[0].definitions.forEach(function (item) {
-        htmlData += '<tr><td>' + item.value + '</td></tr>';
+    data.translations.forEach(function (item) {
+        htmlData += '<tr><td>' + item.key + ' ' + item.value  + '</td></tr>';
     });
 
     htmlData += '</table>';

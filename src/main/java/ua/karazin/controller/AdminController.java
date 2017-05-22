@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import ua.karazin.dto.TranslationDTO;
 import ua.karazin.model.Language;
 import ua.karazin.model.PartOfSpeech;
+import ua.karazin.model.Translation;
 import ua.karazin.model.Word;
 import ua.karazin.repository.WordRepository;
 
@@ -26,43 +28,32 @@ public class AdminController {
 
     @PostMapping
     @ResponseBody
-    public Word add(@ModelAttribute final Word word,
+    public TranslationDTO add(@ModelAttribute final Word word,
                       @RequestParam("definitionList") List<String> definitions,
                       @RequestParam("partOfSpeechList") List<String> partsOfSpeech) {
 
-        final Language language = word.getLanguage() == Language.EN ? Language.UKR : Language.EN;
+        List<Translation> translations = convertTranslations(word, definitions, partsOfSpeech);
+        word.setTranslations(translations);
 
-        List<Word> defs = convertDefinitions(definitions, partsOfSpeech);
-        defs.forEach(w -> w.setLanguage(language));
-
-        word.setDefinitions(defs);
-
-        //todo: translation in two ways
-        defs.forEach( d -> {
-            Word loc = new Word();
-            loc.setValue(word.getValue());
-            loc.setLanguage(word.getLanguage());
-            loc.setPartOfSpeech(d.getPartOfSpeech());
-            d.setDefinitions(Arrays.asList(loc));
-            repository.save(d.getDefinitions());
-        });
-
-        repository.save(word.getDefinitions());
         repository.save(word);
 
-        return word;
+        return new TranslationDTO(word);
     }
 
-    private List<Word> convertDefinitions(List<String> names, List<String> partsOfSpeech) {
-        List<Word> result = new ArrayList<>();
+    private List<Translation> convertTranslations(Word word, List<String> translations, List<String> partsOfSpeech) {
+        final Language language = word.getLanguage() == Language.EN ? Language.UKR : Language.EN;
+        final List<Translation> result = new ArrayList<>();
 
-        for (int i = 0; i < names.size(); i++) {
-            Word word = new Word();
+        for (int i = 0; i < translations.size(); i++) {
+            Translation translation = new Translation();
+            Word translationWord = Word.translation(translations.get(i), language);
 
-            word.setValue(names.get(i));
-            word.setPartOfSpeech(PartOfSpeech.valueOf(partsOfSpeech.get(i)));
+            translation.setPartOfSpeech(PartOfSpeech.valueOf(partsOfSpeech.get(i)));
+            translation.setLeft(word);
+            translation.setRight(translationWord);
+            translationWord.setTranslations(Arrays.asList(translation));
 
-            result.add(word);
+            result.add(translation);
         }
 
         return result;
