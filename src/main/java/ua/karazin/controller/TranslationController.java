@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import ua.karazin.dto.TranslationDTO;
 import ua.karazin.model.Word;
 import ua.karazin.repository.WordRepository;
 
-import javax.ws.rs.GET;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,9 +20,8 @@ public class TranslationController {
 
     @GetMapping("/translation/{value}")
     @ResponseBody
-    public List<Word> get(@PathVariable("value") String value){
-        return repository.
-                findAllByValueIgnoreCaseStartingWithAndPartOfSpeechIsNull(value);
+    public TranslationDTO get(@PathVariable("value") String value){
+        return new TranslationDTO(repository.findByValueIgnoreCase(value));
     }
 
     @GetMapping("/translation")
@@ -34,7 +32,7 @@ public class TranslationController {
     @GetMapping("/lookup")
     @ResponseBody
     public List<String> lookup(@RequestParam("term") String term){
-        return repository.findAllByValueIgnoreCaseStartingWithAndPartOfSpeechIsNull(term)
+        return repository.findAllByValueIgnoreCaseStartingWith(term)
                          .stream()
                          .map(Word::getValue)
                          .collect(Collectors.toList());

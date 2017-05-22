@@ -1,5 +1,6 @@
 package ua.karazin.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -21,13 +22,9 @@ public class Word {
     private String transcription;
 
     @Enumerated(EnumType.STRING)
-    private PartOfSpeech partOfSpeech;
-
-    @Enumerated(EnumType.STRING)
     private Language language;
 
-    @OneToMany  private List<Word> synonyms;
-    @ManyToMany private List<Word> definitions;
+    @ManyToMany(cascade = CascadeType.ALL) private List<Translation> translations;
 
     public long getId()
     {
@@ -47,31 +44,6 @@ public class Word {
         this.value = value;
     }
 
-    public PartOfSpeech getPartOfSpeech()
-    {
-        return partOfSpeech;
-    }
-    public void setPartOfSpeech(PartOfSpeech partOfSpeech)
-    {
-        this.partOfSpeech = partOfSpeech;
-    }
-
-    public List<Word> getDefinitions()
-    {
-        return definitions;
-    }
-    public void setDefinitions(List<Word> definitions)
-    {
-        this.definitions = definitions;
-    }
-
-    public List<Word> getSynonyms() {
-        return synonyms;
-    }
-    public void setSynonyms(List<Word> synonyms) {
-        this.synonyms = synonyms;
-    }
-
     public Language getLanguage()
     {
         return language;
@@ -88,5 +60,23 @@ public class Word {
     public void setTranscription(String transcription)
     {
         this.transcription = transcription;
+    }
+
+    public List<Translation> getTranslations()
+    {
+        return translations;
+    }
+    public void setTranslations(List<Translation> translations)
+    {
+        this.translations = translations;
+    }
+
+    public static Word translation(String value, Language language) {
+        Word translation = new Word();
+
+        translation.setValue(value);
+        translation.setLanguage(language);
+
+        return translation;
     }
 }
