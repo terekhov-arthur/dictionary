@@ -1,7 +1,6 @@
 var definitionIndex = 0;
 var timer;
 var $search;
-const doneTypingInterval = 1000;
 
 $(document).ready(function () {
     $search = $('#search');
@@ -46,17 +45,26 @@ function del(id) {
 
 function renderData(data) {
     var $data = $('#data');
+    var $word = $('#word');
+    var $transcription = $('#transcription');
 
-    //todo: format func for a translation
-    var htmlData = '<table>'
-                    + '<tr><th colspan="3">'+ data.word +'</th></tr>'
-                    + '<tr><th>Translation</th><th>Part Of Speech</th></tr>';
+    $word.text(data.word);
+    $transcription.text(data.transcription);
+
+//todo: localization mb
+    var htmlData = '';
+    var pos = null;
+    var pos_counter = 1;
+    var single_pos_counter = 1;
 
     data.translations.forEach(function (item) {
-        htmlData += '<tr><td>' + item.key + ' ' + item.value  + '</td></tr>';
+        if(pos === null || pos !== item.value) {
+            pos = item.value;
+            single_pos_counter = 1;
+            htmlData = htmlData.concat('<div class="row pos_row">').concat(pos_counter++).concat('. ').concat(pos).concat('</div>');
+        }
+        htmlData = htmlData.concat('<div class="row margin-left-5 font-size-18 trans_row">').concat(single_pos_counter++).concat(') ').concat(item.key).concat('</div>');
     });
-
-    htmlData += '</table>';
 
     $data.html(htmlData);
 }

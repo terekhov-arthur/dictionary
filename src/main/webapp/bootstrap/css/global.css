@@ -1,3 +1,6 @@
+body {
+    background-image: url('back.jpg');
+}
 .add-word-form {
     width: 800px;
     margin: 200px auto;
@@ -34,8 +37,47 @@
 .search-field {
     height: 40px;
     font-size: 20pt;
+    border-radius: 10px;
 }
 
-.margin-top200 {
-    margin-top: 200px;
+.margin-top150 {
+    margin-top: 150px;
+}
+
+#word {
+    font-size: 35pt;
+}
+
+#transcription {
+    font-size: 20pt;
+}
+
+#word, #transcription {
+    color: white;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.font-size-18 {
+    font-size: 18pt;
+}
+
+.pos_row {
+    color: #c5dcff;
+    font-size: 14pt;
+    text-transform: lowercase;
+}
+
+.trans_row {
+    color: #8dc9ff;
+}
+
+#data{
+    margin-left: 25px;
+}
+
+#data-block {
+    margin-top: 25px;
 }

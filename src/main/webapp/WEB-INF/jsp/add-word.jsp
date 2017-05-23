@@ -36,7 +36,6 @@
                 </table>
             </div>
         </div>
-    <%--<input class="form-control" type="text" name="value"/>--%>
     </form>
 </div>
 </body>
