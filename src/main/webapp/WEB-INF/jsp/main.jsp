@@ -14,7 +14,7 @@
             </div>
         </div>
         <div id="data-block" class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-8 col-md-offset-3">
                 <div id="word" class="row"></div>
                 <div id="transcription" class="row"></div>
                 <div id="data">

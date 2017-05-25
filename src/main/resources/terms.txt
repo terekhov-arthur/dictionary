@@ -1,0 +1,491 @@
+technical quality	технічна якість 		
+posture	постава тулуба [n]	['pɔsʧə]	
+poise	постава тулуба [n]	[pɔɪz]	
+holds	постава в парі [n]	[həulds]	
+centre 	центр [n]	['sentə]	
+balance	баланс [n]	['bæləns]	
+foot skills	навички стопи 		
+foot action	дія стопи 		
+foot position	позиція стопи		
+foot placement	постава стопи		
+feet closing 	змикання стоп		
+body	1)тіло [n]   2)тулуб [n]	['bɔdɪ]	
+body action	дія тіла		
+Drive	драйв [n]	[draɪv]	
+preparation to move	підготовка до руху		
+Rise 	підйом [n]	[raɪz]	
+Fall	зниження [n]	[fɔːl]	
+Elevation	підйом [n]	"[ˌelɪ'veɪʃ(ə)n], ['elə-]"	
+Lowering	зниження [n]	['lau(ə)rɪŋ]	
+No Foot Rise (NFR)	без підйому стопи (БПС)		
+Swing	свінг [n]	[swɪŋ]	
+Pivot	півот [n]	['pɪvət]	
+Continuous Spin	продовжений спін		
+skilled figure	складні фігури		
+align	розташовувати на одній лінії [v]	[ə'laɪn]	
+head weight	вага голови		
+body weight	вага тіла		
+ball	подушечка [n]	[bɔːl]	
+upper body	верхня частина тіла		
+(dance) hall	танцювальна зала [n]	([dɑːn(t)s]) [hɔːl]	
+(dance) floor	танцювальний паркет [n]	([dɑːn(t)s]) [flɔː]	
+dance line/line of dance	лінія танцю		
+Sway	нахил/свей [n]	[sweɪ]	
+flex	згинати [n]	[fleks]	
+body centre 	центр тіла		
+curving line	вигнута лінія		
+closed position	закрита позиція		
+tension	напруженість [n]	['ten(t)ʃ(ə)n]	
+open	відкривати(сь) [v]	['əup(ə)n]	
+close	1) закривати(сь) 2) змикати(сь)	[kləuz]	
+sliding	ковзаючий [adj]	['slaɪdɪŋ]	
+perform	виконувати [v]	[pə'fɔːm]	
+dance movement	танцювальний рух		
+execution	виконання [n]	"[ˌeksɪ'kjuːʃ(ə)n], [-sə'k-]"	
+basic	базовий [adj]	['beɪsɪk]	
+basic movement	базовий рух		
+complex	складний [adj]	['kɔmpleks]	
+complex movement	складний рух		
+compensatory movement	компенсаторний рух		
+tone	тонус [n]	[təun	
+toned	у тонусі 		
+arch	дуга [n]	[ɑːʧ]	
+arched	по дузі		
+curved	зігнутий		
+extension	подовження [n]	"[ɪk'sten(t)ʃ(ə)n], [ek-]"	
+execute	виконувати [v]	"['eksɪkjuːt], [-sək-]"	
+turn	поворот [n]	[tɜːn]	
+Outside Turn	поворот на зовнішній стороні		
+Inside Turn	поворот на внутрішній стороні		
+Rotation	обертання [n]	[rə'teɪʃ(ə)n]	
+Twist	скручування [n]	[twɪst]	
+change	зміна [n]	[ʧeɪnʤ]	
+distortion 	перекошення [n]	[dɪ'stɔːʃ(ə)n]	
+shape	форма [n]	[ʃeɪp]	
+shaping	створення форми		
+extend	витягувати(сь) [v]	"[ɪk'stend], [ek-]"	
+stretch	розтягувати(сь) [v]	[streʧ]	
+flexibility	гнучкість [n]	[ˌfleksɪ'bɪlətɪ]	
+shared centre	спільний центр		
+Side Leading	ведуче плече		
+Outside Partner	збоку партнерки		
+Promenade Position (PP)	променадна позиція (ПП)		
+isolation	ізоляція [n]	[ˌaɪs(ə)'leɪʃ(ə)n]	
+contact	контакт [n]	['kɔntækt]	
+contact points	точки контакту		
+pelvis	таз [n]	['pelvɪs]	
+gapping 	розривання/розрив (утрата) контакту між партнерами		
+common centre	спільний центр		
+static position	статичне положення		
+dynamic movement	динамічний рух		
+couple position	позиція пари		
+upright position	вертикальне положення		
+steadiness 	стійкість [n]	['stedɪnəs]	
+one-dimensional	одновимірний		
+two-dimensional	двовимірний		
+three-dimensional	тривимірний		
+adjustment	пристосування [n]	[ə'ʤʌstmənt]	
+dynamic balance	динамічний баланс 		
+alignment	напрям стопи [n]	[ə'laɪnmənt]	
+toe	носок [n]	[təu]	
+heel	каблук [n]	[hiːl]	
+flat	1) плоский [adj]   2) плоско [adv]	[flæt]	
+weight distribution	розподіл ваги		
+footwork	робота стопи [n]	['futwɜːk]	
+pressure	тиск [n]	['preʃə]	
+foot pressure	тиск стопи		
+Contra Body Movement Position (CBMP)	позиція протидії корпусом		
+Contra Body Movement (CBM) 	протидія корпусом		
+muscle	м'яз [n]	['mʌsl]	
+hip	стегно [n]	[hɪp]	
+biomechanics	біомеханіка [n]	[ˌbaɪəumɪ'kænɪks]	
+Cosmetic Sway	косметичний нахил/свей		
+amplitude	амплітуда [n]	['æmplɪt(j)uːd]	
+standing foot	опорна нога		
+acceleration	прискорення [n]	[əkˌselə'reɪʃ(ə)n]	
+deceleration	уповільнення [n]	[ˌdɪˌselə'reɪʃ(ə)n]	
+flexion	згинання [n]	['flekʃ(ə)n]	
+tilt	нахил [n]	[tɪlt]	
+pendulum	маятник [n]	['pendj(ə)ləm]	
+coronal plane 	фронтальна площина		
+sagittal plane 	сагітальна площина		
+transverse plane 	горизонтальна площина		
+preparatory movement	підготовчий рух		
+moving foot	рухома нога		
+wind-up	скручування		
+free leg	вільна нога		
+joint 	суглоб [n]	[ʤɔɪnt]	
+Metronomic Swing	метрономний свінг		
+Rotary Swing	ротаційний свінг		
+Pendulum Swing	маятниковий свінг		
+Swing dances	свінгові танці		
+voluminous movement	об'ємний рух		
+speed	швидкість [n]	[spiːd] 	
+musicality	музикальність [n]	[mju:zɪ'kælɪtɪ]	
+foot lift	відрив стопи від паркета		
+centrifugal force 	відцентрова сила		
+centripetal force 	доцентрова сила		
+inertia 	інерція [n]	[ɪ'nɜːʃə]	
+continuous	безперервний [adj]	[kən'tinjʊəs]	
+transition	перехід [n]	"[træn'zɪʃ(ə)n], [trɑːn-], [-'sɪʒ-]"	
+intensity	інтенсивність [n]	[ɪn'ten(t)sətɪ]	
+strength	сила [n]	[streŋθ]	
+exit	вихід з фігури [n]	"['eksɪt], ['egzɪt]"	
+held position	статичне положення		
+split	шпагат [n]	[splɪt]	
+kick	кидок ногою [n]	[kɪk] 	
+jump	1) стрибок [n]   2) стрибати [v]	[ʤʌmp]	
+leap	1) стрибок [n]   2) стрибати [v]	[liːp]	
+movement to music	рух під музику		
+timing	таймінг [n]	['taɪmɪŋ]	
+shuffle timing	шафл-таймінг		
+rhythm	ритм [n]	['rɪð(ə)m]	
+musical structure	музична структура		
+tempo	темп [n]	['tempəu]	
+time signature 	музичний розмір		
+timed	синхронізований		
+off-beat	затакт		
+rhythmical accent	ритмічний акцент		
+srtong beat	сильна доля		
+weak beat	слабка доля		
+musical accent	музичний акцент		
+choreography	хореографія [n]	[ˌkɔrɪ'ɔgrəfɪ]	
+phrase	фраза [n]	[freɪz]	
+melody	мелодія [n]	['melədɪ] 	
+chorus	приспів [n]	['kɔːrəs]	
+volume	об'єм [n]	['vɔljuːm]	
+rhythmical	ритмічний [adj]	['rɪðmɪk((ə)l)]	
+rhythmicity	ритмічність [n]	[rɪð'mɪsɪtɪ]	
+partnering skills	партнерські навички		
+physical communication	фізичний зв'язок 		
+overbalance	перевага [n]	[ˌəuvə'bælən(t)s]	
+counterbalance 	противага [n]	['kauntəˌbælən(t)s]	
+drop	скидання [n]	[drɔp]	
+time 	час [n]	[taɪm]	
+space	простір [n]	[speɪs]	
+consistency	злагодженість [n]	[kən'sɪst(ə)n(t)sɪ]	
+coordination	координація [n]	[kəuˌɔːdɪ'neɪʃ(ə)n]	
+transfer	перенесення [n]	"[træn(t)s'fɜː] , [trɑːn-]"	
+weight transfer	перенесення ваги		
+body weight transfer	перенесення ваги тіла		
+connecting point	точка з'єднання		
+trajectory	траєкторія [n]	[trə'ʤekt(ə)rɪ]	
+partnership	партнерство [n]	['pɑːtnəʃɪp]
+stiff	жорсткий [adj]	[stɪf]	
+stiffness	жорсткість [n]	['stɪfnəs]	
+presentation	презентація [n]	[ˌprez(ə)n'teɪʃ(ə)n]	
+composition	композиція [n]	[ˌkɔmpə'zɪʃ(ə)n]	
+Non-verbal communication (NVC)	невербальний зв'язок (НВК) 		
+positioning 	розташування на паркеті 		
+floorcraft	уміння користуватися паркетом [n]	['flɔːkrɑːft]	
+characterization	характеристика [n]	[ˌkærɪkt(ə)raɪ'zeɪʃ(ə)n]	
+character	характер [n]	['kærəktə]	
+energy application	застосування енергії		
+atmosphere	атмосфера [n]	['ætməsfɪə]	
+linear movement	лінійний рух		
+progressive movement	прогресивний рух		
+hop	1) підскакування [n]  2) підскакувати [v]	[hɔp]	
+syncopation	синкопа [n]	[ˌsɪŋkə'peɪʃ(ə)n]	
+travelling figure	рухома фігура		
+stationary figure	нерухома фігура		
+line	лінія [n]	[laɪn]	
+variation	варіація [n] 	[ˌveərɪ'eɪʃ(ə)n]	
+audience	"публіка, глядачі [n]"	['ɔːdɪən(t)s]	
+judge	суддя [n]	['ʤʌʤ]	
+adjudicator	"арбітр, суддя [n]"	[ə'ʤuːdɪkeɪtə]	
+collision	зіткнення [n]	[kə'lɪʒ(ə)n]	
+direction	напрям тулуба [n]	[d(a)ɪ'rekʃ(ə)n]	
+couple	пара [n]	['kep(ə)l]	
+dance couple	танцювальна пара		
+agility	"рухливість, моторність, жвавість, спритність [n]"	[ə'dʒɪlɪtɪ]	
+rapidity	швидкість [n]	[rə'pɪdətɪ]	
+power	сила [n]	['paʊə]	
+contrast 	контраст [n]	['kɔntrɑːst]	
+stamina	витривалість [n]	['stæmɪnə]	
+deficiency	нестача [n]	[dɪ'fɪʃ(ə)nsɪ]	
+efficiency	ефективність [n]	"[ɪ'fɪʃ(ə)n(t)sɪ] , [ə-]"	
+mood 	настрій [n]	[mu:d]	
+gesture	жест [n]	['dʒesʧə]	
+expression	вираз [n]	"[ɪk'spreʃ(ə)n] , [ek-]"	
+facial expression	"вираз обличчя, міміка [n]"		
+characteristic	"характерна риса, особливість [n]"	[ˌkærəktə'rɪstɪk]	
+preparation	підготовка [n]	[ˌprep(ə)'reɪʃ(ə)n]	
+action	дія [n]	['ækʃ(ə)n]	
+movement	рух [n]	['mu:vmənt]	
+recovery	повернення у вихідне положення [n]	[rɪ'kʌv(ə)rɪ]	
+dynamics	динаміка [n]	[daɪ'næmɪks]	
+head	голова [n]	[hed]	
+shoulder	плече [n]	['ʃəʊldə]	
+ribcage	грудна клітка [n]	['bɜ:dkeɪdʒ]	
+back	спина [n]	[bæk]	
+shoulder-blade	лопатка [n]		
+arm	рука (від плеча до кисті) [n]	[ɔ:m]	
+palm	долоня [n]	[pɔ:m]	
+wrist	зап'ясток [n]	[rist]	
+leg	нога [n]	[leg]	
+foot	стопа [n]	[fut]	
+knee	коліно [n]	[ni:]	
+centre 	центр [n]	['sentə]	
+body position	положення тіла		
+lock 	замок кистей [n]	[lɔk]	
+level	рівень [n]	[lev(ə)l]	
+step	крок [n]	[step]	
+Fan	Віяло [n]	[fæn]	
+adjust	пристосовуватись [v]	[ə'ʤʌst]	
+recover	повертати(ся) до вихідного положення [v]	[rɪ'kʌvə]	
+gravity	сила тяжіння [n]	['grævɪtɪ]	
+vibration	вібрація [n]	[vaɪ'breɪʃ(ə)n]	
+ankle	щиколотка [n]	['æŋkl]	
+muscular	м'язовий [adj]	"['mʌskjələ], [-ju-]"	
+stable	стійкий [adj]	['steɪbl] 	
+balanced	сбалансований		
+leaning	відхилення		
+energy application	застосування енергії 		
+Back Walk	Хід назад		
+Swivel	Свівл [n]	['swɪv(ə)l]	
+March	Марш [n]	[mɑːʧ]	
+coordinative	координаційний [adj]	[kəuˌɔːdɪ'neɪtɪv]	
+coordinative action	координаційна дія		
+error	помилка [n]	['erə]	
+roll	перекат [n]	[rəul]	
+foot roll	перекат стопи		
+clarity	"чіткість, ясність [n]"	['klærətɪ]	
+Rhythm Bounce	Ритм баунс		
+Bota Fogos	Бота фогос		
+Volta 	Вольта [n]	"['vɔltə] , ['vəul-]"	
+Cruzados Walks	Кроки крузадос		
+Lock 	Лок [n]	[lɔk]	
+Backward Walk	Крок назад		
+Forward Walk	Крок вперед		
+delay	1) затримка [n]                        2) затримувати [v]	[dɪ'leɪ]	
+Walk in Place	Крок на місці		
+Weight Transfer in Place	Перенесення ваги на місце		
+Cuban Break	Кубинський брейк		
+Cuban Rock	Кубинський рок		
+Chasse	Шасе [n]	[ʃɑːs]	
+Cucaracha	Кукарача [n]	[ku:kə'rɔ:ʧə]	
+Appel	Апель		
+Heel turn	каблучний поворот		
+accuracy	"точність, правильність [n]"	['ækjərəsɪ]	
+resist	протидіяти [v]	[rɪ'zɪst]	
+control	контроль [v]	[kən'trəul]	
+push	тягнути [v]	[puʃ]	
+push	штовхати [v]	[puʃ]	
+press	тиснути [v]	[pres]	
+extending	витягування		
+proficiency	"майстерність, уміння [n]"	[prə'fɪʃ(ə)n(t)sɪ]	
+sequence	послідовність [n]	['siːkwən(t)s]	
+bending	згинання		
+unbending	розгинання		
+stretching	розтягування		
+balancing	балансування		
+jumping	стрибання		
+gesturing	жестикуляція		
+emphasized	акцентований		
+emphasize	акцентувати [v]	['emfəsaɪz]	
+complement	1) доповнення [n]                            2) доповнювати [v]	['kɔmplɪmənt]	
+initiate	починати [v]	[ɪ'nɪʃɪeɪt]	
+finish	1) закінчення [n]                      2) закінчувати [v]	['fɪnɪʃ]	
+combine	поєднувати [v]	[kəm'baɪn]	
+smooth	"плавний, спокійний [adj]"	[smu:ð]	
+subsequent	наступний [adj]	['sʌbsɪkwənt]	
+subsequent action	наступна дія		
+preparatory action	підготовча дія		
+Three Step Turn	Поворот на трьох кроках		
+Spiral	Спіраль [n]	['spaɪər(ə)l]	
+Double Spiral	Подвійна спіраль		
+excessive	надмірний [adj]	"[ɪk'sesɪv] , [ek-]"	
+combination	"комбінація, зв'язка"	[ˌkɔmbɪ'neɪʃ(ə)n]	
+chest	грудна клітка	[ʧest]	
+squeeze	здавлювати [v]	[skwi:z]	
+blocking	блокування [n]	['blɔkɪŋ]	
+inclination	нахилення [n]	[ˌɪnklɪ'neɪʃ(ə)n] 	
+skill	навичка [n]	[skɪl]	
+partner	1) партнер [n]  2) партнерка [n]	['pɑːtnə]	
+whole	1) ціле [n]  2) цілий [adj]	[həul]	
+meaningful	виразний [adj]	"['miːnɪŋf(ə)l] , [-ful]"	
+contextual	контекстуальний [adj]	"[kən'tekstjuəl] , [-ʧuə-]"	
+energy	енергія [n]	['enəʤɪ]	
+loss	втрата [n]	[lɔs]	
+control loss/loss of control	втрата контролю		
+strong	сильний [adj]	[strɔŋ]	     
+light	легкий [adj]	[laɪt]	
+heavy	важкий [adj]	['hevɪ]	
+sudden	1) стрімкий [adj] 2) несподіваний [adj]	['sʌd(ə)n]	
+sustained	"тривалий, безперервний [adj]"	[sə'steɪnd]	
+flexible	гнучкий [adj]	['fleksəbl]	
+bound	зв'язаний [adj]	[baund]	
+free	вільний [adj]	[friː]	
+succession	послідовність [n]	[sək'seʃ(ə)n]	
+slow	повільний [adj]	[sləu]	
+slowly	повільно [adv]	['sləulɪ]	
+quick	швидкий [adj]	[kwɪk]	
+quickly	швидко [adv]	['kwɪklɪ]	
+body part	частина тіла		
+enhance	"збільшувати, підсилювати [v]  "	"[ɪn'hɑːn(t)s] , [en-]"	
+physical contact	фізичний контакт		
+respond	відповідати [v]	[rɪ'spɔnd]	
+boundary	"границя, межа [n]"	['baund(ə)rɪ]	
+limited	обмежений		
+lead	"вести, керувати [v]"	[liːd]	
+follow	слідувати [v]	['fɔləu]	
+precision	точність [n]	[prɪ'sɪʒ(ə)n]	
+lack 	1) нестача [n]  2) відсутність [n]	[læk]	
+establish	встановлювати [v]	"[ɪs'tæblɪʃ] , [es-]"	
+established	встановлений [adj]	"[ɪs'tæblɪʃt] , [es-]"	
+communication	зв'язок [n]	[kəˌmjuːnɪ'keɪʃ(ə)n]	
+leading	ведення [n]	['liːdɪŋ]	
+following	слідування [n]	['fɔləuɪŋ]	
+separated	відокремлений		
+connecting hands	з'єднані руки		
+quantity	величина [n]	['kwɔntətɪ]	
+turn quantity/quantity of turn	величина повороту		
+adequate	відповідний [adj]	['ædɪkwət]	
+indication	ознака [n]	[ˌɪndɪ'keɪʃ(ə)n]	
+flow	потік [n]	[fləu]	
+continuity	безперервність [n]	[ˌkɔntɪ'njuːətɪ]	
+non-physical leading	ведення без фізичного контакту		
+mirrored 	дзеркально відображений		
+Ronde’	Ронд		
+Flick Ball Change	Флік бол чейндж		
+Volta Spot Turn	Вольта спот поворот		
+backwards	назад [adv]	['bækwədz]	
+forward	вперед [adv]	['fɔːwəd]	
+arrival	прихід [n]	[ə'raɪv(ə)l]	
+seamlessly	"плавно [adv], рівномірно [adv]"	['siːmləslɪ]
+content	зміст [n]	['kɔntent]	
+partnering	партнерський [adj]	['pɑːtnərɪŋ]	
+solo	соло [n]	['səuləu]	
+touch	1) дотик [n]  2) торкатись [v]	[tʌʧ]	
+touching	торкання		
+proximity	близькість [n]	[prɔk'sɪmətɪ]	
+focus	фокус [n]	['fəukəs]	
+gaze	погляд [n]	[geɪz] 	
+eye contact	контакт очима		
+eye movement	рух очима		
+body language	мова тіла		
+distance	відстань [n]	['dɪst(ə)n(t)s]	
+narrative	оповідальний [adj]	['nærətɪv]	
+kinetic	кінетичний [adj]	[kɪ'netɪk]	
+spatial 	просторовий [adj]	['speɪʃ(ə)l]	
+maneuvering	маневрування		
+Promenade Run	Променадний біг		
+technique	техніка [n]	[tek'niːk]	
+endurance	витривалість [n]	"[ɪn'djuər(ə)n(t)s] , [en-]"	
+edge	сторона [n]	[eʤ]	
+inside edge 	внутрішня сторона		
+outside edge	зовнішня сторона		
+inside foot edge	внутрійшня сторона стопи		
+outside foot edge	зовнішнія сторона стопи		
+foot edge	сторона стопи		
+turn amount/amount of turn	ступінь повороту		
+facing	обличчям		
+backing	спиною		
+pointing	указуючи		
+supporting foot	опорна стопа		
+Tipple Chasse	Тіпль шасе		
+Broken Sway	зламаний нахил/свей 		
+Artistic Sway	артистичний  нахил/свей 		
+Technical Sway	технічний нахил/свей 		
+waist	"пояс, талія [n]"	[weɪst]	
+sideways	убік [adv]	['saɪdweɪz]	
+to the right	праворуч 		
+to the left	ліворуч		
+forearm	передпліччя [n]	['fɔː(r)ɑːm]	
+elbow	лікоть [n]	['elbəu]	
+hand	рука (кисть руки) [n]	[hænd] 	
+heel pull	підтягування каблука		
+bar	такт [n]	[bɑː]	
+beat	доля [n]	[biːt]	
+counting	рахунок [n]	['kauntɪŋ]	
+Closed Change	Закрита зміна		
+Natural Spin Turn	Правий спін поворот		
+Overturned Running Spin Turn	Перекручений біжучий спін поворот		
+Whisk	Віск [n]	[wɪsk]	
+Chasse from PP	Шасе з ПП		
+Closed Impetus	Закритий імпетус		
+Impetus Turn	Імпетус поворот		
+Hesitation Change	Зміна хезітейшн 		
+Outside Change	Зовнішня зміна		
+Reverse Corte	Зворотнє корте		
+Back Whisk	Віск назад		
+Basic Weave	Основне плетіння		
+Double Reverse Spin 	Подвійний лівий спін		
+Reverse Pivot	Лівий півот		
+Back Lock	Лок назад		
+Progressive schasse to right	Прогресивне шасе праворуч		
+Weave from PP	Плетіння з ПП		
+Closed Telemark	Закритий телемарк		
+Open Telemark 	Відкритий телемарк		
+Cross Chasse	Крос шасе		
+Cross Hesitation	Крос хезітейшн		
+Drag Hesitation	Дрег хезітейшн		
+Wing	Крило [n]	[wɪŋ]	
+Open Impetus	Відкритий імпетус		
+Outside Spin	Зовнішній спін		
+Left Wisk	Лівий віск		
+Contra Check	Контра чек		
+Closed Wing	Закрите крило		
+Turning Lock	Поворотний лок		
+Fallaway Reverse 	Лівий фолевей		
+Slip Pivot	Сліп півот		
+Hover Corte	Ховер корте		
+Feather Step	Перо крок		
+Three Step	Потрійний крок		
+Natural Turn	Правий поворот		
+Reverse Turn	Лівий поворот		
+Feather Finish 	Перо фініш 		
+Natural Weave	Праве плетіння		
+Movement Direction/Direction of movement	Напрям руху		
+Direction Change/Change of Direction	Зміна напряму		
+Top Spin	Топ спін		
+Hover Feather	Ховер перо		
+Hover Telemark	Ховер Тлемарк		
+Hover Cross	Ховер Крос		
+Reverse Wave	Ліва хвиля		
+Natural Twist Turn	Правий твіст поворот		
+Curved Feather 	Зігнуте перо		
+Back Feather	Перо назад		
+Natural Zig-Zag from PP	Правий зигзаг з ПП		
+Natural Hower Telemark	Правий ховер телемарк		
+Bounce Fallaway	Баунс фолевей		
+Quarter Turn	Четвертний поворот		
+Hesitation	Хезітейшн		
+Natural Pivot Turn	Правий півот поворот		
+Chasse Reverse Turn	Лівий шасе поворот		
+Forward Lock	Лок вперед		
+Lock Step	Лок степ		
+Back Lock	Лок назад		
+Running Finish	Біжуче закінчення		
+Quick Open Reverse	Швидкий відкритий лівий		
+Fish Tail	Фіштейл [n]	['fɪʃteɪl]	
+Running Right Turn	Біжучий правий поворот		
+Running Cross Shasse	Біжуче крос шасе		
+Four Quick Run	Чотири швидкі біжучі		
+Cross Swivel	Крос свівл		
+Six Quick Run	Шість швидких біжучих		
+Rumba Cross	Румба крос		
+Tipsy 	Тіпсі [n]	['tɪpsɪ]	
+walk	1) хід [n]  2) крок [n]	[wɔːk]	
+Progressive Side Step	Прогресивний бічний крок		
+Progressive Link	Прогресивна ланка		
+Closed Promenade	Закритий променад		
+Rock Turn	Рок поворот		
+Open Reverse Turn	Відкритий лівий поворот		
+Back Corte	Корте назад		
+Open Promenade	Відкритий променад		
+Fallaway Whisk	Фолевей віск		
+Rock	Рок [n]	[rɔk]	
+Natural Promenade Turn	Правий променадний поворот		
+Promenade Link	Променадна ланка		
+Four Step	Форстеп [n]	['fɔːstep]	
+Back Open Promenade	Відкритий променад назад		
+Outside Swivel	Зовнішній свівл		
+Fallaway Promenade	Фолевей променад		
+Four Step Change	Зміна форстеп		
+Brush	Щітка/Браш [n]	[brʌʃ]	
+Brush Tap	Браш теп		
+Oversway	Оверсвей		
+Basic Reverse Turn	Основний лівий поворот		
+Chase 	Чейс [n]	[ʧeɪs] 	
+Five Step	Файвстеп [n]	['faɪvstep]

@@ -14,6 +14,7 @@ import ua.karazin.model.Language;
 import ua.karazin.model.PartOfSpeech;
 import ua.karazin.model.Translation;
 import ua.karazin.model.Word;
+import ua.karazin.repository.CSVReader;
 import ua.karazin.repository.WordRepository;
 
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ import java.util.List;
 public class AdminController {
 
     @Autowired private WordRepository repository;
+    @Autowired private CSVReader csvReader;
 
     @PostMapping
     @ResponseBody
@@ -64,5 +66,11 @@ public class AdminController {
         model.addAttribute("languages", Language.values());
         model.addAttribute("partsOfSpeech", PartOfSpeech.values());
         return "add-word";
+    }
+
+    @GetMapping("/init")
+    public String init(){
+        csvReader.load();
+        return "redirect:/translation";
     }
 }

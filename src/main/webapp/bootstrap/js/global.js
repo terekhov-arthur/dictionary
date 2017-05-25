@@ -58,7 +58,7 @@ function renderData(data) {
     var single_pos_counter = 1;
 
     data.translations.forEach(function (item) {
-        if(pos === null || pos !== item.value) {
+        if(pos !== item.value) {
             pos = item.value;
             single_pos_counter = 1;
             htmlData = htmlData.concat('<div class="row pos_row">').concat(pos_counter++).concat('. ').concat(pos).concat('</div>');

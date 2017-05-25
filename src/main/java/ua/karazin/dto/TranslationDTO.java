@@ -8,6 +8,7 @@ import ua.karazin.model.Word;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Objects;
 
 public class TranslationDTO {
     private long wordId;
@@ -27,7 +28,20 @@ public class TranslationDTO {
                     translation.getLeft().getValue().equals(word.getValue()) ? translation.getRight() : translation.getLeft();
             translations.add(new Pair<>(translationWord.getValue(), translation.getPartOfSpeech()));
         }
-        translations.sort(Comparator.comparing(Pair::getValue));
+
+        translations.sort((t1, t2) -> {
+
+            PartOfSpeech left = t1.getValue();
+            PartOfSpeech right = t2.getValue();
+
+            if(Objects.equals(left, right)) {
+                return 0;
+            } else if(left != null && right != null) {
+                left.compareTo(right);
+            }
+
+            return 1;
+        });
     }
 
     public long getWordId()
