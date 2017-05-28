@@ -70,6 +70,11 @@ public class AdminController {
 
     @GetMapping("/init")
     public String init(){
+        try {
+            repository.clear();
+        } catch (Exception ex) {
+            //ignore empty result set
+        }
         csvReader.load();
         return "redirect:/translation";
     }

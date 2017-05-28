@@ -387,7 +387,7 @@ Tipple Chasse	Тіпль шасе
 Broken Sway	зламаний нахил/свей 		
 Artistic Sway	артистичний  нахил/свей 		
 Technical Sway	технічний нахил/свей 		
-waist	"пояс, талія [n]"	[weɪst]	
+waist	"пояс [n], талія [n]"	[weɪst]
 sideways	убік [adv]	['saɪdweɪz]	
 to the right	праворуч 		
 to the left	ліворуч		

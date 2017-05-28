@@ -76,7 +76,6 @@ public class CSVReader {
             term.setTranscription(items[2]);
         }
 
-        //todo: add i and similar
         Pattern translationPattern = Pattern.compile("(\\d\\)\\s*)?([а-яА-Яієї\\s-+*./()]+)(\\[\\w+])?\\s*");
         Matcher matcher = translationPattern.matcher(items[1]);
 
