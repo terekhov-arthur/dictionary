@@ -18,6 +18,8 @@ public class Word {
 
     @Column(columnDefinition = "nvarchar(50)")
     private String value;
+
+    @Column(columnDefinition = "nvarchar(50)")
     private String transcription;
 
     @Enumerated(EnumType.STRING)

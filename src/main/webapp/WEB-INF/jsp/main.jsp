@@ -2,7 +2,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="src/main/webapp/bootstrap/css/global.css"/>
     <title>$Title$</title>
     <%@ include file="../jspf/header.jspf"%>
 </head>

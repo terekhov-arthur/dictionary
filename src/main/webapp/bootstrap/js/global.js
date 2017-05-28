@@ -31,7 +31,7 @@ $(document).ready(function () {
         source: "/lookup",
         minLength: 2,
         select: function( event, ui ) {
-                $.get('/translation/'+ ui.item.value, function(data) {
+                $.get('/translate?value='+ ui.item.value, function(data) {
                 renderData(data);
             });
         }

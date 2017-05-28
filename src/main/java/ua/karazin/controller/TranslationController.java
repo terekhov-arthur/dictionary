@@ -10,6 +10,7 @@ import ua.karazin.dto.TranslationDTO;
 import ua.karazin.model.Word;
 import ua.karazin.repository.WordRepository;
 
+import javax.ws.rs.Path;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -18,9 +19,9 @@ public class TranslationController {
 
     @Autowired private WordRepository repository;
 
-    @GetMapping("/translation/{value}")
+    @GetMapping("/translate")
     @ResponseBody
-    public TranslationDTO get(@PathVariable("value") String value){
+    public TranslationDTO get2(@RequestParam("value") String value){
         return new TranslationDTO(repository.findByValueIgnoreCase(value));
     }
 
@@ -32,7 +33,7 @@ public class TranslationController {
     @GetMapping("/lookup")
     @ResponseBody
     public List<String> lookup(@RequestParam("term") String term){
-        return repository.findAllByValueIgnoreCaseStartingWith(term)
+        return repository.findAllByValueIgnoreCaseContains(term)
                          .stream()
                          .map(Word::getValue)
                          .collect(Collectors.toList());
