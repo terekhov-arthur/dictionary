@@ -26,7 +26,6 @@ import java.util.List;
 public class AdminController {
 
     @Autowired private WordRepository repository;
-    @Autowired private CSVReader csvReader;
 
     @PostMapping
     @ResponseBody
@@ -40,6 +39,13 @@ public class AdminController {
         repository.save(word);
 
         return new TranslationDTO(word);
+    }
+
+    @GetMapping
+    public String get(Model model){
+        model.addAttribute("languages", Language.values());
+        model.addAttribute("partsOfSpeech", PartOfSpeech.values());
+        return "add-word";
     }
 
     private List<Translation> convertTranslations(Word word, List<String> translations, List<String> partsOfSpeech) {
@@ -59,23 +65,5 @@ public class AdminController {
         }
 
         return result;
-    }
-
-    @GetMapping
-    public String get(Model model){
-        model.addAttribute("languages", Language.values());
-        model.addAttribute("partsOfSpeech", PartOfSpeech.values());
-        return "add-word";
-    }
-
-    @GetMapping("/init")
-    public String init(){
-        try {
-            repository.clear();
-        } catch (Exception ex) {
-            //ignore empty result set
-        }
-        csvReader.load();
-        return "redirect:/translation";
     }
 }

@@ -17,7 +17,7 @@ public class Translation
     @OneToOne(cascade = CascadeType.ALL)   private Word left;
     @OneToOne(cascade = CascadeType.ALL)   private Word right;
     @Enumerated(EnumType.STRING) private PartOfSpeech partOfSpeech;
-
+//=============================================================================
     public long getId()
     {
         return id;

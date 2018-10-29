@@ -26,7 +26,7 @@ public class Word {
     private Language language;
 
     @ManyToMany(cascade = CascadeType.ALL) private List<Translation> translations;
-
+//=================================================================================
     public long getId()
     {
         return id;

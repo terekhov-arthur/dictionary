@@ -9,19 +9,15 @@ import ua.karazin.model.Word;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @Component
 public class CSVReader {
 
-    @Autowired private WordRepository repository;
+    @Autowired
+    private WordRepository repository;
 
     private static final Map<String, PartOfSpeech> posMap = new HashMap<>(8);
 
@@ -43,7 +39,8 @@ public class CSVReader {
             sc = new Scanner(file);
         }
         catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("ERROR: Unable to find the file '" + file + "'");
+            return;
         }
 
         List<Word> terms = new ArrayList<>();
@@ -54,7 +51,7 @@ public class CSVReader {
             terms.add(word);
         }
 
-        repository.save(terms);
+        repository.saveAll(terms);
 
         sc.close();
     }
@@ -86,12 +83,12 @@ public class CSVReader {
             translation.setLeft(term);
             translation.setRight(word);
 
-            String pos = matcher.group(3);
-            if(pos != null && !pos.isEmpty()) {
-                translation.setPartOfSpeech(posMap.get(pos.trim()));
+            String partOfSpeech = matcher.group(3);
+            if(partOfSpeech != null && !partOfSpeech.isEmpty()) {
+                translation.setPartOfSpeech(posMap.get(partOfSpeech.trim()));
             }
 
-            word.setTranslations(Arrays.asList(translation));
+            word.setTranslations(Collections.singletonList(translation));
             term.getTranslations().add(translation);
         }
 
