@@ -46,6 +46,7 @@ function del(id) {
 function renderData(data) {
     var $data = $('#data');
     var $word = $('#word');
+    var $definition = $('#definition');
     var $transcription = $('#transcription');
 
     $word.text(data.word);
@@ -67,4 +68,5 @@ function renderData(data) {
     });
 
     $data.html(htmlData);
+    $definition.text(data.definition);
 }

@@ -16,8 +16,8 @@
             <div class="col-md-8 col-md-offset-1">
                 <div id="word" class="row"></div>
                 <div id="transcription" class="row"></div>
-                <div id="data">
-                </div>
+                <div id="data"></div>
+                <div id="definition"></div>
             </div>
         </div>
     </div>

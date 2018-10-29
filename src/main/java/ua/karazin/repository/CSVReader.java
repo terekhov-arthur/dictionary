@@ -32,13 +32,12 @@ public class CSVReader {
         posMap.put("[pro]", PartOfSpeech.PRONOUN);
     }
 
-    public void load(){
+    public void load() {
         File file = new File("src/main/resources/terms.txt");
-        Scanner sc = null;
+        Scanner sc;
         try {
             sc = new Scanner(file);
-        }
-        catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             System.out.println("ERROR: Unable to find the file '" + file + "'");
             return;
         }
@@ -67,10 +66,16 @@ public class CSVReader {
 
         String[] items = parseRow(row);
 
-        term.setValue(items[0]);
+        term.setValue(items[0].trim());
 
-        if(items.length >= 3) {
-            term.setTranscription(items[2]);
+        if (items.length >= 3) {
+            term.setTranscription(items[2].trim());
+        }
+
+        String ukrDefinition = null;
+        if (items.length == 5) {
+            term.setDefinition(items[3].trim());
+            ukrDefinition = items[4].trim();
         }
 
         Pattern translationPattern = Pattern.compile("(\\d\\)\\s*)?([а-яА-Яієї\\s-+*./()]+)(\\[\\w+])?\\s*");
@@ -78,13 +83,15 @@ public class CSVReader {
 
         while (matcher.find()) {
             Word word = Word.translation(matcher.group(2).trim(), Language.UKR);
+            word.setDefinition(ukrDefinition);
+
             Translation translation = new Translation();
 
             translation.setLeft(term);
             translation.setRight(word);
 
             String partOfSpeech = matcher.group(3);
-            if(partOfSpeech != null && !partOfSpeech.isEmpty()) {
+            if (partOfSpeech != null && !partOfSpeech.isEmpty()) {
                 translation.setPartOfSpeech(posMap.get(partOfSpeech.trim()));
             }
 

@@ -13,6 +13,7 @@ public class TranslationDTO {
     private long wordId;
     private String word;
     private String transcription;
+    private String definition;
     private List<Pair<String, PartOfSpeech>> translations;
 
     public TranslationDTO(Word word) {
@@ -21,6 +22,7 @@ public class TranslationDTO {
         wordId = word.getId();
         this.word = word.getValue();
         transcription = word.getTranscription();
+        definition = word.getDefinition();
 
         for (Translation translation : word.getTranslations()) {
             Word translationWord =
@@ -74,9 +76,15 @@ public class TranslationDTO {
     {
         return transcription;
     }
-
     public void setTranscription(String transcription)
     {
         this.transcription = transcription;
+    }
+
+    public String getDefinition() {
+        return definition;
+    }
+    public void setDefinition(String definition) {
+        this.definition = definition;
     }
 }

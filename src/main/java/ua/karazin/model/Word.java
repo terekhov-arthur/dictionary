@@ -22,6 +22,9 @@ public class Word {
     @Column(columnDefinition = "nvarchar(50)")
     private String transcription;
 
+    @Column(columnDefinition = "nvarchar(50)")
+    private String definition;
+
     @Enumerated(EnumType.STRING)
     private Language language;
 
@@ -70,6 +73,13 @@ public class Word {
     public void setTranslations(List<Translation> translations)
     {
         this.translations = translations;
+    }
+
+    public String getDefinition() {
+        return definition;
+    }
+    public void setDefinition(String definition) {
+        this.definition = definition;
     }
 
     public static Word translation(String value, Language language) {
