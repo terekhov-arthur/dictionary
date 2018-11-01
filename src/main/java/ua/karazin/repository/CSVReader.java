@@ -1,6 +1,5 @@
 package ua.karazin.repository;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ua.karazin.model.Language;
@@ -10,7 +9,6 @@ import ua.karazin.model.Word;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -83,9 +81,17 @@ public class CSVReader {
         Pattern translationPattern = Pattern.compile("(\\d\\)\\s*)?([а-яА-Яієї\\s-+*./()]+)(\\[\\w+])?\\s*");
         Matcher matcher = translationPattern.matcher(items[1]);
 
+        Matcher videoMatcher = Pattern.compile("video: ([\\w\\d]*\\.mov)").matcher(row);
+        String videoPath = null;
+        if(videoMatcher.find()) {
+            videoPath = videoMatcher.group(1).trim();
+            term.setVideoPath(videoPath);
+        }
+
         while (matcher.find()) {
             Word word = Word.translation(matcher.group(2).trim(), Language.UKR);
             word.setDefinition(ukrDefinition);
+            word.setVideoPath(videoPath);
 
             Translation translation = new Translation();
 
@@ -101,10 +107,10 @@ public class CSVReader {
             term.getTranslations().add(translation);
         }
 
-        Matcher videoMatcher = Pattern.compile("video:(.*)").matcher(row);
-        if(videoMatcher.find()) {
-            term.setVideoPath(videoMatcher.group(1).trim());
-        }
+//        Matcher synonymsMatcher = Pattern.compile("syn:(.*)").matcher(row);
+////        if(synonymsMatcher.find()) {
+////            term.setSynonyms(Arrays.asList(synonymsMatcher.group(1).trim().split(",")));
+////        }
 
 
         return term;

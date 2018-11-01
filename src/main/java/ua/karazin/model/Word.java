@@ -1,13 +1,6 @@
 package ua.karazin.model;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -22,7 +15,7 @@ public class Word {
     @Column(columnDefinition = "nvarchar(50)")
     private String transcription;
 
-    @Column(columnDefinition = "nvarchar(50)")
+    @Column(columnDefinition = "nvarchar(250)")
     private String definition;
 
     @Column(columnDefinition = "nvarchar(500)")
@@ -32,6 +25,8 @@ public class Word {
     private Language language;
 
     @ManyToMany(cascade = CascadeType.ALL) private List<Translation> translations;
+
+    //@OneToMany(cascade = CascadeType.ALL) private List<String> synonyms;
 //=================================================================================
     public long getId()
     {
@@ -91,6 +86,13 @@ public class Word {
     public void setVideoPath(String videoPath) {
         this.videoPath = videoPath;
     }
+
+//    public List<String> getSynonyms() {
+//        return synonyms;
+//    }
+//    public void setSynonyms(List<String> synonyms) {
+//        this.synonyms = synonyms;
+//    }
 
     public static Word translation(String value, Language language) {
         Word translation = new Word();

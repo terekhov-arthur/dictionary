@@ -69,6 +69,13 @@ function renderData(data) {
     });
 
     $data.html(htmlData);
-    $definition.text(data.definition);
-    $video.html('<video width="720" height="480" controls><source src="/video/'.concat(data.videoPath).concat('" type="video/mp4"></video>'));
+    if(data.definition != null) {
+        var def = data.language == 'EN' ? 'Def.: ' : 'Знач.: ';
+        $definition.text(def.concat(data.definition));
+    }
+    if(data.videoPath != null) {
+        $video.html('<video width="720" height="400" controls><source src="/video/'.concat(data.videoPath).concat('" type="video/mp4"></video>'));
+    } else {
+        $video.html('');
+    }
 }

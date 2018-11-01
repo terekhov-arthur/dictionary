@@ -1,8 +1,8 @@
 technical quality	технічна якість
-posture	постава тулуба [n]	['pɔsʧə]
+posture	постава тулуба [n]	['pɔsʧə]	syn:poise,holds
 poise	постава тулуба [n]	[pɔɪz]
 holds	постава в парі [n]	[həulds]
-centre 	центр [n]	['sentə]	part of smt	часть чего-то
+centre 	центр [n]	['sentə]	part of smt sadasd asdasdas asdasdasdasd asdasdasdasdasds asdasdasdasdas dasdasdasdasd asdasdasd	часть чего-то
 balance	баланс [n]	['bæləns]
 foot skills	навички стопи
 foot action	дія стопи
@@ -291,7 +291,7 @@ subsequent	наступний [adj]	['sʌbsɪkwənt]
 subsequent action	наступна дія
 preparatory action	підготовча дія
 Three Step Turn	Поворот на трьох кроках
-Spiral	Спіраль [n]	['spaɪər(ə)l]
+Spiral	Спіраль [n]	['spaɪər(ə)l]	video: fig.mov
 Double Spiral	Подвійна спіраль
 excessive	надмірний [adj]	"[ɪk'sesɪv] , [ek-]"
 combination	"комбінація, зв'язка"	[ˌkɔmbɪ'neɪʃ(ə)n]
