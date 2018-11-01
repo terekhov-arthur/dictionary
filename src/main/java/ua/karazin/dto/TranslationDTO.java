@@ -14,6 +14,7 @@ public class TranslationDTO {
     private String word;
     private String transcription;
     private String definition;
+    private String videoPath;
     private List<Pair<String, PartOfSpeech>> translations;
 
     public TranslationDTO(Word word) {
@@ -23,6 +24,7 @@ public class TranslationDTO {
         this.word = word.getValue();
         transcription = word.getTranscription();
         definition = word.getDefinition();
+        videoPath = word.getVideoPath();
 
         for (Translation translation : word.getTranslations()) {
             Word translationWord =
@@ -86,5 +88,12 @@ public class TranslationDTO {
     }
     public void setDefinition(String definition) {
         this.definition = definition;
+    }
+
+    public String getVideoPath() {
+        return videoPath;
+    }
+    public void setVideoPath(String videoPath) {
+        this.videoPath = videoPath;
     }
 }

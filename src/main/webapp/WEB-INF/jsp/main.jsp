@@ -18,6 +18,7 @@
                 <div id="transcription" class="row"></div>
                 <div id="data"></div>
                 <div id="definition"></div>
+                <div id="video"></div>
             </div>
         </div>
     </div>

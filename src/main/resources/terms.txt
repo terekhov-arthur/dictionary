@@ -56,7 +56,7 @@ extension	подовження [n]	"[ɪk'sten(t)ʃ(ə)n], [ek-]"
 execute	виконувати [v]	"['eksɪkjuːt], [-sək-]"
 turn	поворот [n]	[tɜːn]
 Outside Turn	поворот на зовнішній стороні
-Inside Turn	поворот на внутрішній стороні
+Inside Turn	поворот на внутрішній стороні	video: video.mp4
 Rotation	обертання [n]	[rə'teɪʃ(ə)n]
 Twist	скручування [n]	[twɪst]
 change	зміна [n]	[ʧeɪnʤ]

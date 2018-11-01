@@ -1,5 +1,6 @@
 package ua.karazin.repository;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ua.karazin.model.Language;
@@ -9,6 +10,7 @@ import ua.karazin.model.Word;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -68,7 +70,7 @@ public class CSVReader {
 
         term.setValue(items[0].trim());
 
-        if (items.length >= 3) {
+        if (items.length >= 3 && items[2].startsWith("[")) {
             term.setTranscription(items[2].trim());
         }
 
@@ -98,6 +100,12 @@ public class CSVReader {
             word.setTranslations(Collections.singletonList(translation));
             term.getTranslations().add(translation);
         }
+
+        Matcher videoMatcher = Pattern.compile("video:(.*)").matcher(row);
+        if(videoMatcher.find()) {
+            term.setVideoPath(videoMatcher.group(1).trim());
+        }
+
 
         return term;
     }

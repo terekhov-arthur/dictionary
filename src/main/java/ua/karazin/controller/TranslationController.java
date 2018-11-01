@@ -1,14 +1,14 @@
 package ua.karazin.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import ua.karazin.dto.TranslationDTO;
 import ua.karazin.model.Word;
 import ua.karazin.repository.WordRepository;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -35,5 +35,10 @@ public class TranslationController {
                          .stream()
                          .map(Word::getValue)
                          .collect(Collectors.toList());
+    }
+
+    @GetMapping("/video/{path}")
+    @ResponseBody public FileSystemResource getPreview3(@PathVariable("path") String path, HttpServletResponse response) {
+        return new FileSystemResource(path);
     }
 }

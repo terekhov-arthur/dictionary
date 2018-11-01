@@ -25,6 +25,9 @@ public class Word {
     @Column(columnDefinition = "nvarchar(50)")
     private String definition;
 
+    @Column(columnDefinition = "nvarchar(500)")
+    private String videoPath;
+
     @Enumerated(EnumType.STRING)
     private Language language;
 
@@ -80,6 +83,13 @@ public class Word {
     }
     public void setDefinition(String definition) {
         this.definition = definition;
+    }
+
+    public String getVideoPath() {
+        return videoPath;
+    }
+    public void setVideoPath(String videoPath) {
+        this.videoPath = videoPath;
     }
 
     public static Word translation(String value, Language language) {

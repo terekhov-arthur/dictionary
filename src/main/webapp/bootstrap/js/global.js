@@ -48,6 +48,7 @@ function renderData(data) {
     var $word = $('#word');
     var $definition = $('#definition');
     var $transcription = $('#transcription');
+    var $video = $('#video');
 
     $word.text(data.word);
     $transcription.text(data.transcription);
@@ -69,4 +70,5 @@ function renderData(data) {
 
     $data.html(htmlData);
     $definition.text(data.definition);
+    $video.html('<video width="720" height="480" controls><source src="/video/'.concat(data.videoPath).concat('" type="video/mp4"></video>'));
 }
